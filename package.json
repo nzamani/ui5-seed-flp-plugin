@@ -1,0 +1,62 @@
+{
+  "name": "nabi.seed.flpplugin",
+  "version": "1.0.0",
+  "author": "Nabi Zamani",
+  "license": "ISC",
+  "description": "UI5 Seed Comp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nzamani/ui5-seed-flpplugin"
+  },
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test",
+    "install": "napa",
+    "postinstall": "node .nabi/scripts/setupSymlinks.js",
+    "setupSymlinks": "node .nabi/scripts/setupSymlinks.js",
+    "installsapui5": "node .nabi/scripts/installSAPUI5SDK"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@ui5/cli": "^1.4.2",
+    "download": "^7.1.0",
+    "extract-zip": "^1.6.7",
+    "fs-extra": "^8.0.0",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^1.5.0",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-jsdoc": "^2.4.0",
+    "grunt-karma": "^3.0.2",
+    "grunt-nwabap-ui5uploader": "^0.3.3",
+    "grunt-openui5": "^0.15.0",
+    "grunt-timer": "^0.6.0",
+    "ink-docstrap": "^1.3.2",
+    "karma": "^3.1.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-openui5": "^0.2.3",
+    "karma-qunit": "^3.1.2",
+    "karma-sinon": "^1.0.5",
+    "multiparty": "^4.2.1",
+    "napa": "^3.0.0",
+    "object-merge": "^2.5.1",
+    "qunit": "^2.9.2",
+    "qunitjs": "^2.4.1",
+    "sinon": "^7.3.2"
+  },
+  "napa": {},
+  "napa-config": {
+    "cache": false
+  },
+  "dependencies": {
+    "ui5-seed-customtheme": "git+ssh://github.com/nzamani/ui5-seed-customtheme.git#1.65.1"
+  }
+}

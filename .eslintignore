@@ -1,0 +1,10 @@
+src/*/target
+src/*/test
+.settings
+target
+dist
+build
+jsdoc
+node_modules
+src/main/webapp/lib
+src/main/webapp/thirdparty

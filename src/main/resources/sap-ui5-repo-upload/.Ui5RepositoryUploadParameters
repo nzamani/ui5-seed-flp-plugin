@@ -1,0 +1,12 @@
+# see function module /UI5/UI5_REPOSITORY_LOAD_HTTP in TA SE37
+
+# please adapt as needed
+# app name max 15 chars
+#SAPUI5ApplicationName=ZUI5_SEED_APP
+#SAPUI5ApplicationDescription=UI5 Seed App
+#SAPUI5ApplicationPackage=ZUI5_LIB
+#WorkbenchRequest=NPLT123456
+
+#defaults
+ExternalCodePage=Cp1252
+AcceptUnixStyleEol=True

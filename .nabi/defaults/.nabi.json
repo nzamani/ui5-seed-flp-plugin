@@ -1,0 +1,37 @@
+{
+	"_version": "0.3.0",
+	"sapdeploy" : {
+		"configFile" : ".sapdeploy.json",
+		"credentialsFile" : "/path/to/my/.sapdeployuser.json"
+	},
+	"sapui5" : {
+		"sdk" : "/path/to/my/local/sapui5-sdk/1.65.1/",
+		"required" : {
+			"downloadUrl" : "https://tools.hana.ondemand.com/additional/sapui5-sdk-1.65.1.zip",
+			"downloadTo" : "/path/to/my/local/sapui5-sdk",
+			"deleteDownloadOnDone" : true
+		}
+	},
+	"app" : {
+		"resources" : [
+			"node_modules/@openui5/sap.ui.core/src",
+			"node_modules/@openui5/sap.m/src",
+			"node_modules/@openui5/sap.f/src",
+			"node_modules/@openui5/sap.ui.layout/src",
+			"node_modules/@openui5/sap.ui.unified/src",
+			"node_modules/@openui5/themelib_sap_belize/src"
+		],
+
+		"testresources" : {
+			"symlinkParent" : "@nabiTestResources",
+			"symlinks" : [],
+			"dirs" : []
+		},
+
+		"appresources" : {
+			"symlinkParent" : "@nabiAppResources",
+			"symlinks" : [],
+			"dirs" : []
+		}
+	}
+}

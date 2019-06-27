@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Testing Overview</title>
+		<!--  try to load the basic UI5 styles -->
+		<link rel="stylesheet" type="text/css" href="/sapui5/resources/sap/ui/core/themes/sap_belize/library.css">
+	</head>
+	<body class="sapUiBody sapUiMediumMargin sapUiForceWidthAuto">
+		<h1>Possible Start Options</h1>
+		<p>
+			This is an overview page of various ways to run you app during development.<br/>
+			Choose one of the access points below to launch the app.
+		</p>
+
+		<h2>SAPUI5</h2>
+		<h3>Local</h3>
+		<ul>
+			<li><a href="/sapui5/index.html">Local SAPUI5 SDK / Demokit</a></li>
+			<!--Use the local SAPUI5 distribution -->
+			<li><a href="test-resources/nabi.seed.flpplugin/bootstrapping/localFlpSandbox.html">Start in FLP Sandbox (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.flpplugin/bootstrapping/localFlpSandbox.html?sap-theme=ui5belizewater">Start in FLP Sandbox (Custom Theme)</a></li>
+			<li><a href="test-resources/nabi.seed.flpplugin/bootstrapping/localFlpSandbox.html#SeedApp-display">Start FLP Demo App (SAP Belize)</a></li>
+		</ul>
+		<h3>CDN</h3>
+		<ul>
+			<!--TODO use a real local SAPUI5 distribution when it gets available soon via npm etc. -->
+			<li><a href="test-resources/nabi.seed.flpplugin/bootstrapping/flpSandbox.html">Start in FLP Sandbox (SAP Belize)</a></li>
+			<li><a href="test-resources/nabi.seed.flpplugin/bootstrapping/flpSandbox.html?sap-theme=ui5belizewater">Start in FLP Sandbox (Custom Theme)</a></li>
+			<li><a href="test-resources/nabi.seed.flpplugin/bootstrapping/flpSandbox.html#SeedApp-display">Start FLP Demo App (SAP Belize)</a></li>
+		</ul>
+
+		<h2>OpenUI5</h2>
+		<p>Sorry dude - but FLP plugins are only for SAPUI5 and not OpenUI5</p>
+
+		<h2>Automated Testing</h2>
+		<ul>
+			<li><a href="test-resources/nabi.seed.flpplugin/testsuite.qunit.html">TestSuite - requires SAPUI5 (QUnit + OPA)</a></li>
+			<li><a href="test-resources/nabi.seed.flpplugin/unit/unitTests.qunit.html">Unit Tests (QUnit)</a></li>
+			<li><a href="test-resources/nabi.seed.flpplugin/integration/opaTests.qunit.html">Integration Tests (OPA)</a></li>
+		</ul>
+
+	</body>
+</html>

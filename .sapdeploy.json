@@ -1,0 +1,22 @@
+{
+	"NPL": {
+		"options": {
+			"conn": {
+				"server": "https://vhcalnplci:44300",
+				"useStrictSSL" : false
+			},
+			"ui5": {
+				"package": "ZUI5_SEED",
+				"bspcontainer": "ZUI5_SEED_FLP",
+				"bspcontainer_text": "UI5 Seed FLP Plugin",
+				"transportno": "NPLK900058",
+				"language" : "EN",
+				"calc_appindex" : true
+			},
+			"resources": {
+				"cwd": "<%= dir.distWebapp %>",
+				"src": "**/*.*"
+			}
+		}
+	}
+}

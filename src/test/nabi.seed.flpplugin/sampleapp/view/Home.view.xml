@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="test.nabi.seed.flpplugin.sampleapp.controller.Home"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	displayBlock="true"
+	height="100%">
+
+	<Page
+		title="Sample: test.nabi.seed.flpplugin.sampleapp"
+		class="sapUiResponsiveContentPadding">
+
+		<content>
+
+			<Text text="Just a dummy App to prove that the FLP Plugin runs even if the FLP app is opened directly." />
+
+		</content>
+
+	</Page>
+
+</mvc:View>

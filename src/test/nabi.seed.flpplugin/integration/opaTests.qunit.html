@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Integration tests</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+
+		<script id="sap-ui-bootstrap"
+			src="/sapui5/resources/sap-ui-core.js"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-preload="async"
+			data-sap-ui-resourceroots='{
+				"nabi.seed.flpplugin": "../../../",
+				"test.nabi.seed.flpplugin": "../"
+			}'
+			data-sap-ui-animation="false"
+			data-sap-ui-frameOptions="allow">
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="/sapui5/resources/sap/ui/thirdparty/qunit-2.css"/>
+		<script src="/sapui5/resources/sap/ui/thirdparty/qunit-2.js"></script>
+		<script src="/sapui5/resources/sap/ui/qunit/qunit-junit.js"></script>
+		<!--
+		<script src="/resources/sap/ui/qunit/qunit-coverage.js"></script>
+		<script src="/resources/sap/ui/qunit/QUnitUtils.js"></script>
+		-->
+
+		<script src="opaTests.qunit.js"></script>
+
+	</head>
+	<body>
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+	</body>
+</html>

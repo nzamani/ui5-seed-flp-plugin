@@ -1,0 +1,54 @@
+# sapui5
+src/main/resources/webAppResources/sapui5/*
+
+# build artefacts
+build
+dist
+target
+tmp
+jsdoc
+
+# user project config
+.user.nabi.json
+@nabiTestResources
+@nabiAppResources
+
+# Eclipse
+.project
+.classpath
+.settings/
+.launch
+.launch/
+
+# Netbeans
+nb-configuration.xml
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# visual studio code
+.vscode
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# Node
+node_modules
+npm-debug.log
+debug.log
+
+# bower
+bower_components
+
+# eslint
+eslint.log
+eslint.tap
+
+# Other
+log
+bin

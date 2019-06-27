@@ -1,0 +1,19 @@
+# exclude development artifacts
+#src
+#test
+#node_modules
+#bower_components
+#demoapp
+#docs
+#defaults
+#dist/webapp.zip
+#build
+#jsdoc
+#lib
+#.idea
+#.babelrc
+#.editorconfig
+#.eslintrc
+#.nabi.json
+#.user.nabi.json
+#Jenkinsfile

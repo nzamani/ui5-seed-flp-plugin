@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FLP Seed Plugin</title>
+
+		<script src="js/ushell.config.js" id="my-ushell-config"></script>
+
+		<script src="https://sapui5.hana.ondemand.com/1.65.1/test-resources/sap/ushell/bootstrap/sandbox.js" id="sap-ushell-bootstrap"></script>
+
+		<!-- Bootstrap the UI5 core library -->
+		<script id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/1.65.1/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m, sap.ushell, sap.collaboration"
+			data-sap-ui-preload="async"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-logLevel="DEBUG"
+			data-sap-ui-onInit="module:test/nabi/seed/flpplugin/bootstrapping/js/ushell.index"
+			data-sap-ui-theme-roots='{
+				"ui5belizewater" : "/test-resources/ui5-seed-customtheme/UI5/"
+			}'
+			data-sap-ui-resourceroots='{
+				"nabi.seed.flpplugin": "../../../",
+				"test.nabi.seed.flpplugin": "../"
+			}'
+			data-sap-ui-frameOptions="allow"> 	// NON-SECURE setting for testing environment
+		</script>
+		<!--
+			For using the custom theme deployed on ABAP please use something like this:
+			data-sap-ui-theme-roots='{"ui5belizewater" : "https://vhcalnplci:44300/sap/public/bc/themes/~client-001/UI5/"}'
+		-->
+
+	</head>
+
+	<!-- UI Content -->
+	<body class="sapUiBody" id="content">
+	</body>
+</html>
