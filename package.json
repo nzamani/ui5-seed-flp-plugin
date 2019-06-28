@@ -57,6 +57,6 @@
     "cache": false
   },
   "dependencies": {
-    "ui5-seed-customtheme": "git+ssh://github.com/nzamani/ui5-seed-customtheme.git#1.65.1"
+    "ui5-seed-customtheme": "https://github.com/nzamani/ui5-seed-customtheme.git#1.65.1"
   }
 }
